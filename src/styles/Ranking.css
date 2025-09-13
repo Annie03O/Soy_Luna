@@ -1,0 +1,30 @@
+form {
+    display: flex;
+}
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid #e63894;
+    font-size: 20px;
+    padding-left: 10px;
+    color: #e63894;
+    font-family: 'Times New Roman', Times, serif;
+}
+form > button {
+    margin-left: 10px ;
+
+}
+button {
+    background-color: #e63894; 
+    color: #f4e911;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.rankinglist > li {
+    font-size: 30px;
+    list-style: number;
+}
+ul > li > span {
+    margin-right: 10px;
+}

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "ES2020",
     "module": "CommonJS",
     "esModuleInterop": true,
@@ -11,4 +12,27 @@
     "jsx": "react-jsx",
   },
   "include": ["Frontend/src", "Frontend/src/models/", "Frontend/src/Router.tsx"]
+=======
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react-jsx",
+
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+
+    "types": ["node"]
+  },
+  "include": ["src", "vite-env.d.ts"]
+>>>>>>> 8c5dee871abf7b0bf4d9c46a612d9acd776cfd5d
 }

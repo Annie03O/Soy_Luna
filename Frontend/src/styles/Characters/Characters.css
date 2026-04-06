@@ -1,0 +1,76 @@
+ /* .characterPage {
+    color: #e63894;
+    justify-content: center;
+    align-items: center;
+
+}
+.CharacterCard {
+    text-align: center;
+    background-color: #e63894;
+    color: #f4e911;
+    border-radius: 20px;
+    box-shadow: 4px 4px 3px #874768;
+}
+.CharacterCard:hover {
+    box-shadow: none;
+    background-color: rgb(72, 217, 249);
+
+}
+.character-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;    
+    justify-content: center;
+    align-items: center;
+
+}
+.CharacterCard h2 {
+    color: #f4e911;
+}
+.firstrow {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    width: fit-content;
+    gap: clamp(2px, 90vw, 25px);
+    
+}
+.secondrow {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: fit-content; 
+    gap: clamp(2px, 90vw, 25px);
+    
+}
+.characterContainer {
+    background-color: #e63894;
+    color: #f4e911;
+    height: auto;
+    width: 300px;
+    margin: 10px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px #1d1c0a;
+}
+.characterContainer:hover {
+    box-shadow: none;
+    border: 3px solid #1d1c0a;
+}
+.character-wrapper h1, p {
+    color: #f4e911;
+
+}
+.character-wrapper img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+.character-wrapper p {
+    position: relative;
+    font-size: 20px;
+    bottom: 15px;
+    color: #f4e911;
+    text-align: center;
+}
+.character-wrapper h1 {
+    font-size: 50px;
+}  */

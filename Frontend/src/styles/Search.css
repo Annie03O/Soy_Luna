@@ -1,0 +1,113 @@
+a {
+    text-decoration: none;
+}
+/* Karaktärer */
+.characterCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #e63894;
+    width: fit-content;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px #2b2900;
+}
+.characterCard h3 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.characterCard img {
+    width: 300px;
+}
+.characterCard p {
+    color: #f4e911;
+    text-align: center;
+}
+/* Vänskaper */
+.friendsCard {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #e63894;
+    margin: 10px;
+    width: fit-content;
+    padding-top: 20px;
+    border-radius: 20px;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px #2b2900;
+}
+.friendsCard img {
+    width: 300px;
+}
+.friendsCard h3 {
+    text-align: left;
+    color: #f4e911;
+    padding: 10px;
+}
+/* Romanser */
+.romanceCard {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #e63894;
+    margin: 10px;
+    width: fit-content;
+    padding-top: 20px;
+    border-radius: 20px;
+    border-radius: 30px;
+    box-shadow: 3px 5px 5px #2b2900;
+}
+.romanceCard img {
+    width: 300px;
+}
+.romanceCard h3 {
+    text-align: left;
+    color: #f4e911;
+    padding: 10px;
+}
+/* Album */
+.albumCard {
+    position: relative;
+    background-color: #e63894;
+    display: flex;
+    flex-direction: column-reverse;
+    width: fit-content;
+}
+.albumCard img {
+    width: auto;
+    display: block;
+}
+
+.albumCard h3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e63894;
+    font-size: 20px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 1px  #f4e911;
+}
+
+/* Låtar */
+.songContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+.songCard {
+    position: relative;
+    background-color: #e63894;
+    display: flex;
+    flex-direction: column-reverse;
+    width: fit-content;
+}
+.songCard img {
+    display: block;
+}
+
+.songCard h3 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e63894;
+    font-size: 20px;
+    white-space: nowrap;
+    text-shadow: 2px 2px 1px  #f4e911;
+}

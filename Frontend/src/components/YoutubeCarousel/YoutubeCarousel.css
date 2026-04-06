@@ -1,0 +1,44 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.carousel-wrapper {
+  position: relative;
+  max-width: 560px;
+}
+
+.video-frame {
+  width: 560px;
+  height: 315px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #e53993;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.nav-button:hover {
+  background: #ff8bc7;
+}
+
+.nav-button.left {
+  left: -50px;
+}
+
+.nav-button.right {
+  right: -50px;
+}

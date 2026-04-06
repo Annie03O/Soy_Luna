@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist-ts-node",
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "skipLibCheck": true
+  },
+  "include": ["vite.config.ts"]
+}
